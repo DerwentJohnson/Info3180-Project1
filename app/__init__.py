@@ -7,7 +7,6 @@ SQLALCHEMY_DATABASE_URI = 'postgresql://umtkumbfvedjlk:5dae1bc6c44a647841f883835
 SQLALCHEMY_TRACK_MODIFICATIONS = True # added just to suppress a warning
 UPLOAD_FOLDER = './app/static/uploads'
 
-
 app.config.from_object(__name__)
 
 db = SQLAlchemy(app)

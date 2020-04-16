@@ -6,7 +6,7 @@ from app.models import Users
 from werkzeug.utils import secure_filename
 import os, datetime
 
-
+db.create_all()
 @app.route('/',methods=["GET","POST"])
 @app.route("/profile",methods=["GET","POST"])
 def profile():
